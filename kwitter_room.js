@@ -29,7 +29,7 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
      //Start code
      console.log("Room Name - " + room_names);
      row = "<div class='room_name' id=" + Room_names+" onclick='redirectToRoomName(this.id)' >#" + room_names +"</div><hr>";
-     document.getElementById(öutput).innerHTML += row;
+     document.getElementById(output).innerHTML += row;
 
      //End code
      });});}
